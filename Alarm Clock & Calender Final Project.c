@@ -300,6 +300,10 @@ int main(){
         }
         if(c<0 || c>2)break;
     }
-
+    printf("\n");
+    Red();
+    printf("              Program is Finished        ");
+    printf("                  Thank You!!            ");
+    Reset();
     return 0;
 }
