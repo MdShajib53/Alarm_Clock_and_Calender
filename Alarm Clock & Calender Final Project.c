@@ -298,7 +298,14 @@ int main(){
         if(c==2){
             AlarmClock();
         }
-        if(c<0 || c>2)break;
+        if(c==3){
+            break;
+        }
+        if(c<1 || c>3){
+            Red();
+            printf("\nPlease Enter Correct Choice!!\n\n");
+            Reset();
+        }
     }
     printf("\n");
     Red();
