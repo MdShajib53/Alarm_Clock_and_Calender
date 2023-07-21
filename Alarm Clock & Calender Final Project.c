@@ -302,8 +302,8 @@ int main(){
     }
     printf("\n");
     Red();
-    printf("              Program is Finished        ");
-    printf("                  Thank You!!            ");
+    printf("              Program is Finished        \n");
+    printf("                  Thank You!!            \n");
     Reset();
     return 0;
 }
