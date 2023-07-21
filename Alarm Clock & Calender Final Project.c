@@ -129,7 +129,7 @@ void calender(){
 
         int year;
         Yellow();
-        printf("Enter Your Required Year: ");
+        printf("\nEnter Your Required Year: ");
         scanf("%d",&year);
         Reset();
 
