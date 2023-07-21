@@ -266,7 +266,10 @@ void calender(){
         Red();
         printf("0.No\n");
         Reset();
+        printf("\nEnter Your Choice : ");
+        Purple();
         scanf("%d",&lastCheck);
+        Reset();
     }
     Red();
     printf("\nThank You.\n\n");
