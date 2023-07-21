@@ -301,7 +301,7 @@ int main(){
         if(c==3){
             break;
         }
-        if(c<0 || c>3){
+        if(c<1 || c>3){
             Red();
             printf("\nPlease Enter Correct Choice!!\n\n");
             Reset();
